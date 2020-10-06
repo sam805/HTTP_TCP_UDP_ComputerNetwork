@@ -1,4 +1,4 @@
-# HTTP_TCP_UDP_ComputerNetwork
+#UDP_ComputerNetwork
 The goal of this program is transferring the file in an unreliable network and it includes two classes: RSendUDP and RReceiveUDP
 These classes have methods and different threads to handle and transfer a file from client to server through two different techniques: “stop-and-wait” or “sliding window” which are ARQ algorithm.
 In order to do that, a packet is designed to deliver the message to receiver, this packet includes: 
